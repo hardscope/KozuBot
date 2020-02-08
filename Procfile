@@ -1,1 +1,1 @@
-web: python KozuBot.py
+worker: python KozuBot.py
