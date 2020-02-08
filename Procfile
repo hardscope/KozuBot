@@ -1,1 +1,1 @@
-worker: python KozuBot.py
+web: gunicorn KozuBot.wsgi
