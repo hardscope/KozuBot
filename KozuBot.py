@@ -1,4 +1,5 @@
 import discord
+import os
 from botToken import token
 from discord.ext import commands
 
@@ -27,4 +28,4 @@ async def on_message(message):
     if 'owo' in message.content.casefold() and not message.author.bot:
         await message.channel.send("NO OWO ON MY SERVER")
         
-bot.run(token)
+bot.run(os.environ.get(TOKEN))
