@@ -1,6 +1,6 @@
 import discord
 import os
-from botToken import token
+#from botToken import token
 from discord.ext import commands
 
 bot = commands.Bot(command_prefix='<')
