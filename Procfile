@@ -1,1 +1,1 @@
-web: gunicorn KozuBot:kozubot
+worker: KozuBot.py
