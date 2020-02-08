@@ -27,5 +27,5 @@ async def on_message(message):
         
     if 'owo' in message.content.casefold() and not message.author.bot:
         await message.channel.send("NO OWO ON MY SERVER")
-        
+    await bot.process_commands(message)        
 bot.run(os.environ.get("TOKEN"))
