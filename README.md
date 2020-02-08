@@ -1,2 +1,2 @@
 # KozuBot
-This won't work without botToken.py.
+F*ck Shibi.
