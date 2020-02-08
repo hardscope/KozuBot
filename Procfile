@@ -1,1 +1,1 @@
-web: gunicorn KozuBot.wsgi
+web: gunicorn KozuBot:app
