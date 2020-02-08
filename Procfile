@@ -1,1 +1,1 @@
-web: gunicorn KozuBot:app
+web: gunicorn KozuBot:kozubot
