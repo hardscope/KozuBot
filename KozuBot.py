@@ -16,6 +16,8 @@ async def fuckshibi(ctx):
 
 @bot.event
 async def on_message(message):
+
+    #uwu
     if 'uwu' in message.content.casefold() and not message.author.bot:
         await message.channel.send("NO UWU ON MY SERVER")
         

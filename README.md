@@ -1,2 +1,2 @@
 # KozuBot
-This won't work without token.py.
+This won't work without botToken.py.
